@@ -31,6 +31,6 @@ public class AssignmentOperators {
 
         // noted:
         //% = special character
-        //%% = %
+        //%% = % - for percentage
     }
 }
