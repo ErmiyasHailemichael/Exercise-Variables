@@ -1,4 +1,4 @@
-package org.example;
+package com.plurasight;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -41,8 +41,11 @@ public class Main {
 
 
 // https://github.com/BrightBoost/learningjava/blob/main/exercises/operatorExercise.md
-
-
+        // Challenge A: Double Trouble
+        //Create a double with any value you like.
+        //Multiply it by 2.
+        //Print both the original and the doubled value.
+        double grade = 3.14;
 
 
     }
