@@ -76,6 +76,7 @@ public class Main {
             String option = scanner.nextLine();
             int result = firstNumber * secondNumber;
             System.out.println("The result is: " + result);
+            //
         }
     }
 
