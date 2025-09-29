@@ -21,6 +21,9 @@ public class RentalCarCompany {
 
         int age = getAge();
         System.out.println("Age: " + age);
+
+        double totalCost = totalCost(29.99, 3, 22, 0.30);
+        System.out.println("Total Cost: " + totalCost);
     }
     public static String pickUpDate() {
         System.out.println("What is pick up date?");
@@ -54,4 +57,10 @@ public class RentalCarCompany {
         scanner.nextLine(); // clear newline
         return age;
     }
+    public static double totalCost(double costPerDay, int numberOfRentalDays, int age, double surchargeRate) {
+        double baseCost = costPerDay * numberOfRentalDays;
+        // If age < 25, apply surcharge; otherwise just return base cost
+        return age < 25 ? baseCost * (1 + surchargeRate) : baseCost;
+    }
+
 }
